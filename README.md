@@ -47,6 +47,11 @@ This project is a simple web-based application that demonstrates the PayPal paym
 
 <div>
 <img src="https://github.com/sharkblue58/paypal-integration/blob/main/src/main/resources/static/images/1.png" width="200">
+<img src="https://github.com/sharkblue58/paypal-integration/blob/main/src/main/resources/static/images/2.png" width="200">
+<img src="https://github.com/sharkblue58/paypal-integration/blob/main/src/main/resources/static/images/3.png" width="200">
+<img src="https://github.com/sharkblue58/paypal-integration/blob/main/src/main/resources/static/images/4.png" width="200">
+<img src="https://github.com/sharkblue58/paypal-integration/blob/main/src/main/resources/static/images/5.png" width="200">
+<img src="https://github.com/sharkblue58/paypal-integration/blob/main/src/main/resources/static/images/6.png" width="200">
 </div>
 
 ## Setup
