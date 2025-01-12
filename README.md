@@ -46,7 +46,7 @@ This project is a simple web-based application that demonstrates the PayPal paym
 ## Gallery
 
 <div>
-<img src="https://github.com/sharkblue58/paypal-integration/src/main/resources/static/images/" width="200">
+<img src="https://github.com/sharkblue58/paypal-integration/src/main/resources/static/images/1.png" width="200">
 </div>
 
 ## Setup
@@ -88,6 +88,7 @@ Run the application using the following command:
 
 ```bash
 mvn spring-boot:run
+```
 
 ## Usage
 
