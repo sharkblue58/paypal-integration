@@ -97,4 +97,4 @@ mvn spring-boot:run
 
 ## Usage
 
-The project can be accessed at ```http://127.0.0.1:8000``` in your browser.
+The project can be accessed at ```http://127.0.0.1:8080``` in your browser.
