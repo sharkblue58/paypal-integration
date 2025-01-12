@@ -12,12 +12,11 @@ This is a PayPal payment integration web application built using Spring Boot, bo
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
+- [Gallery](#Gallery)
 - [Setup](#setup)
 - [Running the Application](#running-the-application)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -44,6 +43,12 @@ This project is a simple web-based application that demonstrates the PayPal paym
 - Java 11 or higher
 - Maven
 
+## Gallery
+
+<div>
+<img src="https://github.com/sharkblue58/paypal-integration/src/main/resources/static/images/" width="200">
+</div>
+
 ## Setup
 
 1. **Clone the repository:**
@@ -58,14 +63,17 @@ This project is a simple web-based application that demonstrates the PayPal paym
     Create a app in your paypal dashboard and update the `application.yml` file with your paypal credentials.
 
     ```properties
-    server.error.whitelabel.enabled=false
     spring:
       application:
         name: paypal-integration
     paypal:
       client-id: YOUR_ID
       client-secret: YOUR_SECRET
-      mode: YOUR_MODE (sandbox or live)   
+      mode: YOUR_MODE (sandbox or live)
+    server:
+      error:
+        whitelabel:
+          enabled : false      
     ```
 
 3. **Build the project:**
@@ -80,3 +88,7 @@ Run the application using the following command:
 
 ```bash
 mvn spring-boot:run
+
+## Usage
+
+The project can be accessed at ```http://127.0.0.1:8000``` in your browser.
